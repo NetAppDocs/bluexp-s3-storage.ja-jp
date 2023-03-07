@@ -1,0 +1,44 @@
+---
+sidebar: sidebar 
+permalink: task-add-s3-bucket.html 
+keywords: s3 buckets, s3 storage, s3 working environment, amazon s3 buckets, amazon s3 working environment 
+summary: Amazon S3作業環境がキャンバスに表示されたら、BlueXPから直接バケットを追加できます。 
+---
+= S3バケットを追加
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Amazon S3作業環境がキャンバスに表示されたら、BlueXPから直接バケットを追加できます。
+
+.手順
+. Canvasで、Amazon S3作業環境をダブルクリックしてAmazon S3バケットの概要ページを表示し、*[バケットの追加]*をクリックします。
++
+image:screenshot-add-amazon-s3-bucket-button.png["Amazon S3作業環境と[Add bucket]ボタンの詳細を示すスクリーンショット。"]
+
++
+_Add bucket_pageが表示されます。
+
++
+image:screenshot-add-amazon-s3-bucket.png["独自のAmazon S3バケットを作成できるように、[Add Bucket]ページのスクリーンショット。"]
+
+. [Add bucket]ページで、バケットの作成に必要な情報を入力し、*[Apply]*をクリックします。
++
+.. バケットに使用する名前を入力します。
+.. バケットの所有者になるAWSアカウントを選択します。これは、コネクタがデプロイされたプライマリアカウントにすることも、にすることもできます https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-aws-accounts.html#add-credentials-to-a-connector["BlueXPに追加した別のアカウント"^]。
+.. バケットを作成するAWSリージョンを選択します。
+.. 必要に応じて、バケットでS3オブジェクトロックを有効にして、Write-Once-Read-Many（WORM）モデルを使用してオブジェクトを格納できます。オブジェクトロックを使用する場合は、バケットの作成時に有効にする必要があります。オブジェクトロックを有効にすると、バージョン管理も有効になります。 https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html["オブジェクトロックの詳細については、Amazon S3のドキュメントを参照してください"^]。
++
+バケットが作成されます。
+
+
+
+
+
+.次のステップ
+最初にバケットを追加するときに、バージョン管理、タグ、暗号化を手動で設定することはできません。バケットの作成後、バケットのこれらの他のプロパティを設定できます。 link:task-change-s3-bucket-settings.html["バケット設定の変更について詳しくは、こちらをご覧ください"]。

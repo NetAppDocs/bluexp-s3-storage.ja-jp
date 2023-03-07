@@ -1,0 +1,50 @@
+---
+sidebar: sidebar 
+permalink: task-s3-enable-data-services.html 
+keywords: s3 buckets, s3 storage, s3 working environment, amazon s3 buckets, amazon s3 working environment 
+summary: BlueXPでS3バケットを検出したら、ネットアップのデータサービスを使用してバックアップ、階層化、分類、データ同期を実行できます。 
+---
+= S3バケットでネットアップデータサービスを使用
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+BlueXPでS3バケットを検出したら、ネットアップのデータサービスを使用してバックアップ、階層化、分類、データ同期を実行できます。
+
+* クラウドバックアップ*を使用して、オンプレミスのONTAP システムやCloud Volumes ONTAP システムからS3オブジェクトストレージにデータをバックアップします。
++
+作業を開始するには、キャンバスに移動し、オンプレミスのONTAP またはCloud Volumes ONTAP 作業環境をAmazon S3作業環境にドラッグアンドドロップします。
+
++
+https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html["Amazon S3ストレージへのONTAP データのバックアップの詳細については、こちらをご覧ください"^]。
+
+* クラウド階層化*を使用して、アクセス頻度の低いデータをオンプレミスのONTAP クラスタからS3オブジェクトストレージに階層化します。
++
+作業を開始するには、キャンバスに移動し、オンプレミスのONTAP 作業環境をAmazon S3作業環境にドラッグアンドドロップします。
+
++
+https://docs.netapp.com/us-en/cloud-manager-tiering/task-tiering-onprem-aws.html["ONTAP データをAmazon S3ストレージに階層化する方法については、こちらをご覧ください"^]。
+
+* S3バケットとの間でデータを同期するには、* Cloud Sync *を使用します。
++
+作業を開始するには、Canvasに移動し、ソースの作業環境をターゲットの作業環境にドラッグアンドドロップします。Amazon S3作業環境はソースでもターゲットでもかまいません。
+
++
+Amazon S3作業環境を選択し、[サービス]パネルの*[データの同期]*をクリックして、S3バケットとの間でデータを同期することもできます。
+
++
+https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html["Cloud Sync サービスの詳細については、こちらをご覧ください"^]。
+
+* Cloud Data Sense *を使用してS3バケットをスキャンし、個人データや機密データを検出します。Cloud Data Senseは、NetApp解決策 用に作成されたバケットかどうかに関係なく、アカウント内の任意のバケットをスキャンできます。
++
+開始するには、Amazon S3作業環境を選択し、[サービス]パネルの*[分類]*セクションから適切なオプションを選択してS3バケットのスキャンを開始します。
+
++
+https://docs.netapp.com/us-en/cloud-manager-data-sense/task-scanning-s3.html["Cloud Data Senseサービスの詳細については、こちらをご覧ください"^]。
+
+

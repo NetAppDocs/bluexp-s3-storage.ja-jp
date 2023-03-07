@@ -1,0 +1,49 @@
+---
+sidebar: sidebar 
+permalink: task-viewing-amazon-s3.html 
+keywords: s3 buckets, s3 storage, s3 working environment, amazon s3 buckets, amazon s3 working environment 
+summary: コネクタをAWSにインストールすると、コネクタがインストールされているAWSアカウントにあるAmazon S3バケットに関する情報がBlueXPによって自動的に検出されます。Amazon S3作業環境がCanvasに追加され、この情報を表示できるようになります。 
+---
+= Amazon S3 バケットの表示
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+コネクタをAWSにインストールすると、コネクタがインストールされているAWSアカウントにあるAmazon S3バケットに関する情報がBlueXPによって自動的に検出されます。Amazon S3作業環境がCanvasに追加され、この情報を表示できるようになります。
+
+リージョン、アクセスポリシー、アカウント、合計容量と使用済み容量など、S3バケットに関する詳細を確認できます。これらのバケットは、クラウドバックアップ、クラウド階層化、Cloud Sync の各処理のデスティネーションとして使用できます。また、Cloud Data Senseを使用してこれらのバケットをスキャンすることもできます。
+
+.手順
+. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["コネクタを取り付ける"^] Amazon S3 バケットを表示する AWS アカウントで実行します。
+. ナビゲーションメニューから、*ストレージ>キャンバス*を選択します。
++
+しばらくすると、Amazon S3の作業環境が自動的に表示されます。
+
++
+image:screenshot-amazon-s3-we.png["Amazon S3 作業環境のスクリーンショット。"]
+
+. S3ストレージでBlueXPサービスを有効にする場合は、作業環境をクリックし、右側のペインから操作を選択します。
++
+image:screenshot-amazon-s3-actions.png["Amazon S3 作業環境を選択したあとの操作ペインを示すスクリーンショット。このペインには、S3に関する情報（バケット数と使用可能なサービス数）が表示されます。"]
+
++
+link:task-s3-enable-data-services.html["利用可能なBlueXPサービスを確認し、S3バケットでそれらのサービスを使用する方法を確認します"]。
+
+. AWSアカウントのS3バケットに関する詳細を表示するには、*[Enter Working Environment]*をクリックするか、作業環境をダブルクリックします。
++
+image:screenshot-amazon-s3-buckets.png["Amazon S3作業環境の詳細を示すスクリーンショット（バケットの総数とリージョンの総数、各S3バケットの詳細を示す表）。"]
+
++
+デフォルトで表示される列のほかに、ページをスクロールしてバケットのその他のプロパティ（タグの数、オブジェクトロックとバージョン管理のどちらが有効になっているかなど）を確認できます。
+
+
+
+.次のステップ
+一部のバケット設定は、をクリックしてBlueXPから直接変更できます image:button-horizontal-more.gif["3つの点の詳細ボタン"] バケツのために。 link:task-change-s3-bucket-settings.html["詳細については、こちらをご覧ください"]。
+
+新しいS3バケットを追加するには、*[Add bucket]*をクリックします。 link:task-add-s3-bucket.html["詳細については、こちらをご覧ください"]。
