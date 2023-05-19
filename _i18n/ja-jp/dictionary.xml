@@ -154,7 +154,6 @@
   <block id="7aa72240c8357c1ccb645c4ed54fc655" category="list-text">バケット内のすべてのオブジェクトでバージョン管理が有効になっているか無効になっているか。</block>
   <block id="d92cc14996cce4261a7042bf7143a0eb" category="list-text">バケットに追加されるオブジェクトにタグを適用することもできます。</block>
   <block id="7178af2148dd1317957ac72803a11101" category="list-text">バケットに追加された新しいオブジェクトを暗号化するかどうか、および暗号化に使用するオプション。</block>
-  <block id="258dd0211ab217210a7ac3a749ffe94e" category="paragraph">これらのバケット設定は、をクリックしてBlueXPから直接変更できます <block ref="98246678a6b4f53f828068ceb430dd9d" category="inline-image-macro-rx" type="image"></block> &gt;*バケットの詳細を管理*。</block>
   <block id="03e28e82e5ae57af9a5632a915905ac6" category="inline-image-macro">[Manager Details]ボタンを選択してバケットのプロパティを編集する方法を示すスクリーンショット。</block>
   <block id="b1663f0a11aefa655b800e4525611bc7" category="paragraph"><block ref="b1663f0a11aefa655b800e4525611bc7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c1271f859cb12c5ef9b0c1934c2075f1" category="section-title">バージョン設定を変更します</block>
@@ -291,4 +290,5 @@
   <block id="79dc7a5f3247a2e3c1f0302827271c0e" category="inline-link">BlueXP分類サービスの詳細については、こちらをご覧ください</block>
   <block id="f44d04f198e327aac7307493564b4f16" category="paragraph"><block ref="9a556273b74cb7e85645de2561f90023" category="inline-link-rx"></block>。</block>
   <block id="a1b1ace9d93b9726388b0450fcf0ead8" category="paragraph">リージョン、アクセスポリシー、アカウント、合計容量と使用済み容量など、S3バケットに関する詳細を確認できます。これらのバケットは、BlueXPのバックアップとリカバリ、BlueXPの階層化、BlueXPのコピーと同期の処理のデスティネーションとして使用できます。また、BlueXPの分類を使用してこれらのバケットをスキャンすることもできます。</block>
+  <block id="cdf45afb1d66e7ab7ab5a8b752954903" category="paragraph">これらのバケット設定は、をクリックしてBlueXPから直接変更できます <block ref="98246678a6b4f53f828068ceb430dd9d" category="inline-image-macro-rx" type="image"></block> バケツのために。</block>
 </blocks>

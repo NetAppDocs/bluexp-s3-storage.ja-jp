@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, backup, restore' 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes' 
 summary: BlueXPのAmazon S3ストレージの新機能をご紹介します。 
 ---
 = BlueXPのAmazon S3ストレージの新機能
@@ -24,4 +24,4 @@ BlueXPのAmazon S3ストレージの新機能をご紹介します。
 
 === BlueXPから新しいバケットを追加できるようになりました
 
-BlueXP CanvasでAmazon S3バケットを表示できるようになりました。BlueXPから直接、新しいバケットを追加したり、既存のバケットのプロパティを変更したりできるようになりました。 https://docs.netapp.com/us-en/bluexp-s3-storage/task-add-s3-bucket.html["新しいAmazon S3バケットを追加する方法をご覧ください"^]。
+BlueXP CanvasでAmazon S3バケットを表示できるようになりました。BlueXPから直接、新しいバケットを追加したり、既存のバケットのプロパティを変更したりできるようになりました。 https://["新しいAmazon S3バケットを追加する方法をご覧ください"^]。
