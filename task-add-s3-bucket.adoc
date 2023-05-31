@@ -30,7 +30,7 @@ image:screenshot-add-amazon-s3-bucket.png["独自のAmazon S3バケットを作�
 . [Add bucket]ページで、バケットの作成に必要な情報を入力し、*[Apply]*をクリックします。
 +
 .. バケットに使用する名前を入力します。
-.. バケットの所有者になるAWSアカウントを選択します。これは、コネクタがデプロイされたプライマリアカウントにすることも、にすることもできます https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-aws-accounts.html#add-credentials-to-a-connector["BlueXPに追加した別のアカウント"^]。
+.. バケットの所有者になるAWSアカウントを選択します。これは、コネクタがデプロイされたプライマリアカウントにすることも、にすることもできます https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-aws-accounts.html#add-credentials-to-a-connector["BlueXPに追加した別のアカウント"^]。
 .. バケットを作成するAWSリージョンを選択します。
 .. 必要に応じて、バケットでS3オブジェクトロックを有効にして、Write-Once-Read-Many（WORM）モデルを使用してオブジェクトを格納できます。オブジェクトロックを使用する場合は、バケットの作成時に有効にする必要があります。オブジェクトロックを有効にすると、バージョン管理も有効になります。 https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html["オブジェクトロックの詳細については、Amazon S3のドキュメントを参照してください"^]。
 +
