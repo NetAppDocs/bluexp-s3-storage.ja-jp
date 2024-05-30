@@ -1,0 +1,31 @@
+---
+indexpage:
+  title: Amazon S3ストレージのドキュメント
+  summary: BlueXPシステムでAmazon S3ストレージを使い始めましょう。
+  keywords: amazon s3, storage, bluexp system
+  lead: BlueXPシステムでAmazon S3ストレージを使い始めましょう。
+  tiles:
+  - title: はじめに
+    links:
+    - title: Amazon S3バケットを表示します
+      url: task-viewing-amazon-s3.html
+  - title: S3 バケットを管理する
+    links:
+    - title: S3バケットを追加
+      url: task-add-s3-bucket.html
+    - title: バケット設定を変更します
+      url: task-change-s3-bucket-settings.html
+    - title: S3バケットでネットアップデータサービスを使用
+      url: task-s3-enable-data-services.html
+  - title: 詳細情報
+    links:
+    - title: BlueXP以外で管理するためのAmazon S3のドキュメント
+      url: https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-buckets-s3.html
+  - title: ブログとコミュニティ
+    links:
+    - title: ネットアップコミュニティ
+      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
+    - title: BlueXPブログ
+      url: https://bluexp.netapp.com/blog/topic/cloud-manager
+    - title: クラウドに関する Web セミナー
+      url: https://bluexp.netapp.com/events
