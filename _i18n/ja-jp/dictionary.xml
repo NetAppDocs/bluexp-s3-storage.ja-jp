@@ -116,7 +116,6 @@
   <block id="d0693e7bf28b7bbc94287cee0e4b0768" category="section-title">2023年3月5日</block>
   <block id="912b3a604a5106bda5b0c99ddaaf1364" category="section-title">BlueXPから新しいバケットを追加できるようになりました</block>
   <block id="c07c4e2e029d6d6eb829c29902cb63ff" category="inline-link">新しいAmazon S3バケットを追加する方法をご覧ください</block>
-  <block id="91402ca539ef196ec17265c55db694dc" category="paragraph">BlueXP CanvasでAmazon S3バケットを表示できるようになりました。BlueXPから直接、新しいバケットを追加したり、既存のバケットのプロパティを変更したりできるようになりました。<block ref="2c8909472f79d70b0988a1b1340a52c9" category="inline-link-rx"></block>。</block>
   <block id="d83ada820c6219a6100ac0d45a42417f" category="summary">Amazon S3作業環境がキャンバスで使用可能になったら、一部のバケットプロパティをBlueXPから直接変更できます。</block>
   <block id="03d1d7c5f3e9143c651013d5a8df19ed" category="doc">S3バケットの設定を変更します</block>
   <block id="98b683df18d829ab5d0c1a0667ef090e" category="paragraph">バケット名、AWSアカウント、リージョン、オブジェクトのロック設定は変更できません。</block>
@@ -296,4 +295,5 @@
   <block id="0ca08a23718c0a91743dd6c0146ca353" category="paragraph">Cloud Volumes ONTAPで次の主要なワークフローを有効にするには、NetAppサポートサイトのクレデンシャルをBlueXP  組織に関連付ける必要があります。</block>
   <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">NSSクレデンシャルとBlueXP  組織の関連付けは、BlueXP  ユーザログインに関連付けられたNSSアカウントとは異なります。</block>
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">これらのNSSクレデンシャルは、特定のBlueXP  組織IDに関連付けられています。BlueXP  組織に属するユーザは、*[サポート]&gt;[NSS管理]*からこれらのクレデンシャルにアクセスできます。</block>
+  <block id="7e4353e591e7ee71b0cc70a66b02ee7a" category="paragraph">BlueXP CanvasでAmazon S3バケットを表示できるようになりました。BlueXP  から直接、新しいバケットを追加したり、既存のバケットのプロパティを変更したりできるようになりました。<block ref="f5358cf9e8e537088a631ff4313d8401" category="inline-link-rx"></block>です。</block>
 </blocks>

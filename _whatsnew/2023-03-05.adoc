@@ -1,24 +1,6 @@
----
-sidebar: sidebar 
-permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes' 
-summary: BlueXPのAmazon S3ストレージの新機能をご紹介します。 
----
-= BlueXPのAmazon S3ストレージの新機能
-:hardbreaks:
+= BlueXPから新しいバケットを追加できるようになりました
 :allow-uri-read: 
-:nofooter: 
-:icons: font
-:linkattrs: 
-:imagesdir: ./media/
 
-
-[role="lead"]
-BlueXPのAmazon S3ストレージの新機能をご紹介します。
-
-
-
-== 2023年3月5日
 
 
 
